@@ -32,34 +32,33 @@ class ViewController: UIViewController {
         sliderValueLabel.text = String(Int(sender.value))
     }
     func showAlert(message: String) {
-//        let alert = UIAlertController(title: nil, message: message, preferredStyle: .alert)
-//        let okAction = UIAlertAction(title: nil, style: .default) { (action) in
-//            self.reset()
-//        }
-//        alert.addAction(okAction)
-//        present(alert,
-//                animated: true,
-//                completion: nil
-//        )
+        let alert = UIAlertController(title: nil, message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default) { (action) in
+            self.reset()
+        }
+        alert.addAction(okAction)
+        present(alert,
+                animated: true,
+                completion: nil
+        )
     }
 
     
     @IBAction func touchUpHitButton(_ sender: UIButton) {
         print(slider.value)
+        
         let hitValue : Int = Int(slider.value)
         slider.value = Float(hitValue)
-   
+
         tryCount = tryCount + 1
         tryCountLabel.text =  "\(tryCount) / 5"
-        
+
         if randomValue == hitValue {
-            showAlert(message: "YOU HIT!!")
+            showAlert(message: "정답!!")
             reset()
-            return
         } else if tryCount>=5 {
-            showAlert(message: "YOU LOSE")
+            showAlert(message: "땡!!")
             reset()
-            return
         } else if randomValue > hitValue {
             slider.minimumValue = Float(hitValue)
             minimumValueLabel.text = String(hitValue)
