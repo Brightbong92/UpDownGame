@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  UpDownGame
-//
-//  Created by tirrilee mac mini on 2022/06/02.
-//
-
 import UIKit
 
 class ViewController: UIViewController {

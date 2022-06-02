@@ -13,6 +13,7 @@
 		F775DB802848628300229738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F775DB7E2848628300229738 /* Main.storyboard */; };
 		F775DB822848628400229738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F775DB812848628400229738 /* Assets.xcassets */; };
 		F775DB852848628400229738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F775DB832848628400229738 /* LaunchScreen.storyboard */; };
+		F775DB8D2848B57D00229738 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F775DB8C2848B57C00229738 /* CreditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F775DB812848628400229738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F775DB842848628400229738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F775DB862848628400229738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F775DB8C2848B57C00229738 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F775DB7A2848628300229738 /* SceneDelegate.swift */,
 				F775DB7C2848628300229738 /* ViewController.swift */,
 				F775DB7E2848628300229738 /* Main.storyboard */,
+				F775DB8C2848B57C00229738 /* CreditViewController.swift */,
 				F775DB812848628400229738 /* Assets.xcassets */,
 				F775DB832848628400229738 /* LaunchScreen.storyboard */,
 				F775DB862848628400229738 /* Info.plist */,
@@ -141,6 +144,7 @@
 				F775DB7D2848628300229738 /* ViewController.swift in Sources */,
 				F775DB792848628300229738 /* AppDelegate.swift in Sources */,
 				F775DB7B2848628300229738 /* SceneDelegate.swift in Sources */,
+				F775DB8D2848B57D00229738 /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
