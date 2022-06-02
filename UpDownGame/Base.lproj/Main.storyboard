@@ -93,7 +93,7 @@
                                     </preferredSymbolConfiguration>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="touchUpHit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B0n-xN-sRb"/>
+                                    <action selector="touchUpHitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jAm-Kq-wgv"/>
                                 </connections>
                             </button>
                         </subviews>
